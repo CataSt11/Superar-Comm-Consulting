@@ -3,20 +3,86 @@
 /* -------------------------------------------------------Colors */
 
 footer {
-     background-color: #009999;
+    background-color: #009999;
+    margin: 0;
+}
+
+header {
+    background-color: #009999;
+    margin: 0;
 }
 
 /* -------------------------------------------------------Hoovers*/
 
 .signature:hover {
-    text-decoration: none;
-}
-
-.us:hover {
     color: #fff;
 }
 
+.no-underline:hover {
+    text-decoration: none;
+}
+
+.our-name:hover {
+    color: #000;
+}
+
+.logo:hover {
+    border: 6px solid #000;
+}
+
+.nav-links li a:hover {
+    color: #000;
+}
+
 /* -------------------------------------------------------Heading */
+
+.logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #f4f4f4;
+    max-width: 250px;
+    max-height: 250px;
+    background-color: #4e4e4e;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.logo-section {
+    padding-top: 35px;
+    margin: 0;
+}
+
+.our-name {
+    color: #fff;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    margin-top: 65px;
+    padding: 10;
+}
+
+.nav-links {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    float: right;
+    margin-right: 55px;
+    margin-bottom: 25px;
+    background-color: #4e4e4e;
+}
+
+.nav-links li a {
+    color: #f4f4f4;
+    padding: 10px;
+}
+
+.nav-section {
+    padding-top: 35px;
+    margin: 0;
+}
 
 /* -------------------------------------------------------Footer */
 
@@ -44,7 +110,7 @@ footer {
     margin: 0;
 }
 
-.us {
+.signature {
     font-family: "Dancing Script", sans-serif;
     font-weight: 100;
     font-size: 35px;
