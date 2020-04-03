@@ -10,21 +10,17 @@ header {
     background-color: #009999;
 }
 
-#main-section {
-    background-color: #4e4e4e;
-}
-
 .mid-contact-section {
     background-color: #009999;
 }
 
-/* -------------------------------------------------------Margins, paddings, etc */
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+.right-side,
+.left-side {
+    background-color: #009999;
+    opacity: 0.6;
 }
+
+/* -------------------------------------------------------Margins, paddings, etc */
 
 html {
     margin: 0;
@@ -32,14 +28,50 @@ html {
     height: 100%;
 }
 
-#footer {
-    bottom: 0;
-    width: 100%;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 #body {
     margin: 0;
     padding: 0;
+}
+
+.logo-section {
+    padding-top: 20px;
+}
+
+.nav-section {
+    padding-top: 35px;
+    margin: 0;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.social-networks {
+    margin: auto;
+}
+
+.right-side,
+.left-side {
+    margin: 25px 10px;
+    padding: 10px;
+    max-height: 300px;
+    width: 50%;
+    clear: both;
+}
+
+.container {
+    margin-top: 85px;
+}
+
+#advice {
+    margin-top: 175px;
 }
 
 
@@ -58,21 +90,26 @@ html {
 }
 
 .logo:hover {
-    border: 6px solid #000;
+    border: 5px solid #000;
 }
 
 .nav-links li a:hover {
     color: #000;
 }
 
+.document:hover {
+    color: #000;
+}
+
+.right-side:hover,
+.left-side:hover {
+    opacity: 1;
+}
+
 /* -------------------------------------------------------Heading */
 
 .heading{
     overflow: hidden;
-}
-
-.logo-section {
-    padding-top: 20px;
 }
 
 .logo {
@@ -112,16 +149,7 @@ html {
     padding: 10px;
 }
 
-.nav-section {
-    padding-top: 35px;
-    margin: 0;
-}
-
 /* -------------------------------------------------------Footer */
-
-.social-networks {
-    margin: auto;
-}
 
 .social-networks li a i {
     color: #000;
@@ -156,53 +184,104 @@ html {
 
 /* -------------------------------------------------------Index-page */
 
-
-
-/* -------------------------------------------------------Our-Advice */
-
-
-
-/* -------------------------------------------------------Contact-form */
-
-.main-section {
-    position: relative;
+#glacier-section {
+    background: url("../images/glacier.jpg");
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.welcome,
-.thank-you {
+.who-what-how {
+    font-family: "Dancing Script",sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #f4f4f4;
+}
+
+.presentation {
+    font-family: "Barlow Condensed",sans-serif;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1.5px;
+    color: #000;
+    word-wrap: normal;
+}
+
+.right-side {
+    float: right;
+    max-height: 230px;
+    overflow: scroll;
+}
+.left-side {
+    float: left;
+    max-height: 230px;
+    overflow: scroll;
+}
+
+/* -------------------------------------------------------Our-Advice-page */
+
+#clouds-section {
+    background: url("../images/clouds.jpg");
     width: 100%;
-    min-height: 150px;
+    height: 900px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#advice-div1,
+#advice-div2 {
+    max-height: 280px;
+}
+
+.document {
+    font-size: 20px;
+    color: #f4f4f4;
+    text-align: center;
+    padding-left: 10px;
+}
+/* -------------------------------------------------------Contact-page */
+
+.welcome {
+    width: 100%;
+    min-height: 250px;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.welcome h3,
-.thank-you h3 {
+.welcome h3 {
     width: 100%;
-    height: 150px;
+    height: 250px;
     margin: 0;
     padding-top: 60px;
     text-align: center;
 }
 
-.welcome h3 span,
-.thank-you h3  span {
+.welcome h3 span {
     color: #f4f4f4;
     font-family: "Dancing Script", sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 35px;
     letter-spacing: 1.5px;
     text-align: center;
     margin: auto;
 }
 
+/* .center-form and button are both highly inspired from the project made at the end of the course 
+User Centric Frontend Development (the values differ but the structure is nearly identical) */
 
 .center-form {
-    padding-top: 10px;
+    padding-top: 55px;
     margin: 0 auto;
     max-width: 70%;
     min-height: 350px;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 button[type="submit"] {
@@ -212,7 +291,3 @@ button[type="submit"] {
     background-color: #4e4e4e;
     font-family: "Dancing Script", sans-serif;
 }
-
-/* -------------------------------------------------------Media-queries */
-
-
