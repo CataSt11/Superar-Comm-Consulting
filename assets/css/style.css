@@ -2,55 +2,38 @@
 
 /* -------------------------------------------------------Colors */
 
-footer {
-    background-color: #009999;
-}
-
 header {
-    background-color: #009999;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #3e8b95;
 }
 
-.mid-contact-section {
-    background-color: #009999;
+footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid #3e8b95;
 }
 
 .right-side,
 .left-side {
-    background-color: #009999;
-    opacity: 0.6;
+    border: 1px solid #3e8b95;
+}
+#fullname,
+#phone,
+#emailaddress,
+#project {
+    border: 1px solid #3e8b95;
+}
+
+.bg-color-contact {
+    background-color:  #f1f1f1;
+    min-height: 61rem;
 }
 
 /* -------------------------------------------------------Margins, paddings, etc */
 
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-#body {
-    margin: 0;
-    padding: 0;
-}
-
 .logo-section {
-    padding-top: 20px;
-}
-
-.nav-section {
-    padding-top: 35px;
-    margin: 0;
-}
-
-#footer {
-    bottom: 0;
-    width: 100%;
+    padding-top: 3rem;
+    width: 33%;
+    margin: auto;
 }
 
 .social-networks {
@@ -59,38 +42,41 @@ body {
 
 .right-side,
 .left-side {
-    margin: 25px 10px;
-    padding: 10px;
-    max-height: 300px;
+    margin: 3rem 1rem;
+    padding: 1rem;
+    max-height: 7rem;
     width: 50%;
     clear: both;
 }
 
-.container {
-    margin-top: 85px;
+.welcome {
+    margin: auto;
+    padding-top: 10rem;
 }
 
-#advice {
-    margin-top: 175px;
+#fullname,
+#phone,
+#emailaddress,
+#project {
+    margin-bottom: 1rem;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 12rem;
+    overflow: hidden;
 }
 
 
 /* -------------------------------------------------------Hoovers*/
 
-.signature:hover {
-    color: #f4f4f4;
-}
-
-.no-underline:hover {
-    text-decoration: none;
-}
-
 .our-name:hover {
     color: #000;
 }
 
-.logo:hover {
-    border: 5px solid #000;
+.no-underline:hover {
+    text-decoration: none;
 }
 
 .nav-links li a:hover {
@@ -101,193 +87,230 @@ body {
     color: #000;
 }
 
-.right-side:hover,
-.left-side:hover {
-    opacity: 1;
+.social-networks li a i:hover {
+    color: #000;
 }
 
-/* -------------------------------------------------------Heading */
-
-.heading{
-    overflow: hidden;
+.btn:hover {
+    color: #f1f1f1;
+    background-color: #000;
 }
 
-.logo {
-    background-color: #4e4e4e;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 1px solid #f4f4f4;
-    max-width: 250px;
-    max-height: 250px;
-    text-align: center;
-    float: left;
+/* -------------------------------------------------------Signature */
+
+.signature{
+    color: #000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 0.2rem;
+    letter-spacing: 0.3rem;
+    float: right;
+    padding-top: 1.5rem;
 }
+
+
+/* -------------------------------------------------------Header */
 
 .our-name {
-    color: #fff;
+    color: #3e8b95;
     font-family: "Dancing Script", sans-serif;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-weight: 500;
-    letter-spacing: 1.3px;
-    margin-top: 65px;
+    letter-spacing: 0.5rem;
+    text-align: center;
 }
 
 .nav-links {
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 300;
-    letter-spacing: 3px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 195px;
-    background-color: #4e4e4e;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    background-color: #3e8b95;
+    max-width: 30%;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 .nav-links li a {
-    color: #f4f4f4;
-    padding: 10px;
+    color: #f1f1f1;
+    padding: 1rem;
 }
 
 /* -------------------------------------------------------Footer */
 
 .social-networks li a i {
-    color: #000;
-    padding-left: 40px;
-    padding-right: 10px;
-    padding-top: 50px;
-    margin: auto;
+    color: #3e8b95;
+    padding-left: 2.5rem;
+    margin: 47px auto;
     float: right;
 }
 
 .cta {
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 30px;
-    font-weight: 200;
-    color: #000;
-    letter-spacing: 3px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #3e8b95;
+    letter-spacing: 0.2rem;
     text-align: center;
-    padding: 35px;
-    margin: auto;
-}
-
-.signature {
-    font-family: "Dancing Script", sans-serif;
-    font-weight: 100;
-    font-size: 35px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    padding: 35px;
-    color: #000;
+    padding: 2.5rem;
     margin: auto;
 }
 
 /* -------------------------------------------------------Index-page */
 
 #glacier-section {
-    background: url("../images/glacier.jpg");
-    width: 100%;
-    height: 900px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #f1f1f1;
+    min-height: 78rem;
+
+    /* glacier-section is named after the previous background image for this section. 
+    I decided to remove the picture, but the ID remained */
 }
 
 .who-what-how {
-    font-family: "Dancing Script",sans-serif;
-    font-size: 30px;
+    font-family: "Barlow Condensed",sans-serif;
+    font-size: 2rem;
     text-align: center;
-    letter-spacing: 1.5px;
-    color: #f4f4f4;
+    letter-spacing: 0.2rem;
+    color: #3e8b95;
 }
 
 .presentation {
     font-family: "Barlow Condensed",sans-serif;
-    font-size: 15px;
+    font-size: 1.2rem;
     text-align: left;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1rem;
     color: #000;
     word-wrap: normal;
+    padding-top: 1rem;
 }
 
 .right-side {
     float: right;
-    max-height: 230px;
+    max-height: 360px;
     overflow: scroll;
 }
 .left-side {
     float: left;
-    max-height: 230px;
+    max-height: 360px;
     overflow: scroll;
 }
 
 /* -------------------------------------------------------Our-Advice-page */
 
 #clouds-section {
-    background: url("../images/clouds.jpg");
-    width: 100%;
-    height: 900px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #f1f1f1;
+    min-height: 65rem;
+
+    /* clouds-section is named after the previous background image for this section. 
+    I decided to remove the picture, but the ID remained */
 }
 
-#advice-div1,
-#advice-div2 {
-    max-height: 280px;
+#advice {
+    padding-top: 4rem;
 }
 
 .document {
-    font-size: 20px;
-    color: #f4f4f4;
+    font-size: 1.2rem;
+    color: #3e8b95;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 /* -------------------------------------------------------Contact-page */
 
-.welcome {
-    width: 100%;
-    min-height: 250px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
 .welcome h3 {
     width: 100%;
-    height: 250px;
     margin: 0;
-    padding-top: 60px;
     text-align: center;
 }
 
 .welcome h3 span {
-    color: #f4f4f4;
-    font-family: "Dancing Script", sans-serif;
-    font-weight: 500;
-    font-size: 35px;
-    letter-spacing: 1.5px;
-    text-align: center;
-    margin: auto;
+    color: #3e8b95;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
 }
+
 
 /* .center-form and button are both highly inspired from the project made at the end of the course 
 User Centric Frontend Development (the values differ but the structure is nearly identical) */
 
 .center-form {
-    padding-top: 55px;
+    padding-top: 7rem;
     margin: 0 auto;
-    max-width: 70%;
-    min-height: 350px;
+    max-width: 65%;
     font-family: "Barlow Condensed", sans-serif;
 }
 
 button[type="submit"] {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    color: #f4f4f4;
-    background-color: #4e4e4e;
-    font-family: "Dancing Script", sans-serif;
+    margin-top: 1.3rem;
+    color: #f1f1f1;
+    background-color: #3e8b95;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+}
+
+/* -------------------------------------------------------Media-queries */
+
+
+@media(max-width: 768px) {
+    .logo-section {
+    padding-top: 3rem;
+    width: 70%;
+    margin: auto;
+    }
+
+    .nav-links {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    background-color: #3e8b95;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 0.7rem;
+    }
+
+    .right-side,
+    .left-side {
+    margin: 1rem;
+    padding: 1rem;
+    min-height: 18rem;
+    width: 90%;
+    clear: both;
+    }
+
+    .center-form {
+    padding-top: 5rem;
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: "Barlow Condensed", sans-serif;
+    }
+
+    .signature{
+    color: #000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 0.1rem;
+    letter-spacing: 0.2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    }
+
+    .welcome h3 span {
+    color: #3e8b95;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.9rem;
+    letter-spacing: 0.1rem;
+}
+
+    .social-networks li a i {
+    color: #3e8b95;
+    padding-left: 2.1rem;
+    margin: 47px auto;
+    }
 }
