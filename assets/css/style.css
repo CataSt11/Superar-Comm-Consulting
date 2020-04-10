@@ -78,7 +78,7 @@ footer {
     color: #000;
 }
 
-.document:hover {
+.document-download:hover {
     color: #000;
 }
 
@@ -165,11 +165,10 @@ footer {
 .presentation {
     font-family: "Barlow Condensed",sans-serif;
     font-size: 1.2rem;
-    text-align: left;
     letter-spacing: 0.1rem;
     color: #000;
-    word-wrap: normal;
     padding-top: 1rem;
+    text-align: left;
 }
 
 .right-side {
@@ -185,14 +184,13 @@ footer {
 
 /* -------------------------------------------------------Our-Advice-page */
 
-#advice {
+.advice {
     padding-top: 4rem;
 }
 
-.document {
+.document-download {
     font-size: 1.2rem;
     color: #3e8b95;
-    text-align: center;
     padding-left: 1rem;
 }
 /* -------------------------------------------------------Contact-page */
