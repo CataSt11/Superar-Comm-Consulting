@@ -23,11 +23,6 @@ footer {
     border: 1px solid #3e8b95;
 }
 
-.bg-color-contact {
-    background-color:  #f1f1f1;
-    min-height: 61rem;
-}
-
 /* -------------------------------------------------------Margins, paddings, etc */
 
 .logo-section {
@@ -61,10 +56,10 @@ footer {
     margin-bottom: 1rem;
 }
 
-#footer {
+.footer {
     bottom: 0;
     width: 100%;
-    min-height: 12rem;
+    min-height: 7rem;
     overflow: hidden;
 }
 
@@ -159,14 +154,6 @@ footer {
 
 /* -------------------------------------------------------Index-page */
 
-#glacier-section {
-    background-color: #f1f1f1;
-    min-height: 78rem;
-
-    /* glacier-section is named after the previous background image for this section. 
-    I decided to remove the picture, but the ID remained */
-}
-
 .who-what-how {
     font-family: "Barlow Condensed",sans-serif;
     font-size: 2rem;
@@ -197,14 +184,6 @@ footer {
 }
 
 /* -------------------------------------------------------Our-Advice-page */
-
-#clouds-section {
-    background-color: #f1f1f1;
-    min-height: 65rem;
-
-    /* clouds-section is named after the previous background image for this section. 
-    I decided to remove the picture, but the ID remained */
-}
 
 #advice {
     padding-top: 4rem;
