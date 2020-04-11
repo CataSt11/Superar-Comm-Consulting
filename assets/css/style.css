@@ -23,6 +23,17 @@ footer {
     border: 1px solid #3e8b95;
 }
 
+
+
+/* -------------------------------------------------------Leaf-Image-All-pages*/
+.leaf-picture {
+    height: 10rem;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
 /* -------------------------------------------------------Margins, paddings, etc */
 
 .logo-section {
@@ -90,6 +101,7 @@ footer {
     color: #f1f1f1;
     background-color: #000;
 }
+
 
 /* -------------------------------------------------------Signature */
 
@@ -175,11 +187,28 @@ footer {
     float: right;
     max-height: 380px;
     overflow: scroll;
+    margin: 3rem 0;
 }
 .left-side {
     float: left;
     max-height: 380px;
     overflow: scroll;
+    margin: 3rem 0;
+}
+
+.library-picture {
+    width: 45%;
+    height: 30rem;
+    overflow: hidden;
+    margin-top: 3rem;
+    margin-left: 3.2rem;
+}
+
+.books-picture {
+    width: 45%;
+    height: 35rem;
+    overflow: hidden;
+    margin-top: -11rem;
 }
 
 /* -------------------------------------------------------Our-Advice-page */
@@ -193,6 +222,24 @@ footer {
     color: #3e8b95;
     padding-left: 1rem;
 }
+
+.together-picture {
+    width: 45%;
+    height: 30rem;
+    overflow: hidden;
+    margin-top: 3rem;
+    margin-left: 3.2rem;
+}
+
+.stay-home-picture {
+    width: 45%;
+    height: 30rem;
+    overflow: hidden;
+    margin-top: -5.4rem;
+    margin-right: -4rem;
+}
+
+
 /* -------------------------------------------------------Contact-page */
 
 .welcome h3 {
@@ -222,6 +269,7 @@ User Centric Frontend Development (the values differ but the structure is nearly
 
 button[type="submit"] {
     margin-top: 1.3rem;
+    margin-bottom:10rem;
     color: #f1f1f1;
     background-color: #3e8b95;
     font-family: "Barlow Condensed", sans-serif;
